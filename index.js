@@ -7,6 +7,6 @@ function increment(){
     document.getElementById("count-el").innerText = count;
 }
 function save() {
-    document.getElementById("save-el").innerText = document.getElementById("count-el").innerText;
+    document.getElementById("save-el").innerText += document.getElementById("count-el").innerText + "-";
  }
  
